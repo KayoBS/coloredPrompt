@@ -3,5 +3,6 @@
 
 //este é o arquivo que deve ser usado como cabeçalho
 #include "printwe/printwe.hpp"
+#include "printc.hpp"
 
 #endif
