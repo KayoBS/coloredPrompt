@@ -1,19 +1,19 @@
 #include <iostream>
 #include "printc.hpp"
 
-void printc( const char* wordcolor )
+void printc( string wordcolor )
 {
     //std::cout << "\e[38;2;R;G;Bm";
 }
-void printc( const char* wordColor, const char* backgroundColor )
+void printc( string wordColor, string backgroundColor )
 {
 
 }
-void printc( const char* wordColor, const char* backgroundColor, bool highIntensity )
+void printc( string wordColor, string backgroundColor, bool highIntensity )
 {
 
 }
-void printc( const char* wordColor, const char* backgroundColor, bool highIntensity, bool bold )
+void printc( string wordColor, string backgroundColor, bool highIntensity, bool bold )
 {
 
 }
