@@ -3,9 +3,9 @@
 
 #include <string>
 
-void printc( string wordcolor );
-void printc( string wordColor, string backgroundColor );
-void printc( string wordColor, string backgroundColor, bool highIntensity );
-void printc( string wordColor, string backgroundColor, bool highIntensity, bool bold );
+void printc( std::string message, std::string wordcolor );
+void printc( std::string message, std::string wordColor, std::string backgroundColor );
+void printc( std::string message, std::string wordColor, std::string backgroundColor, bool highIntensity );
+void printc( std::string message, std::string wordColor, std::string backgroundColor, bool highIntensity, unsigned short style );
 
 #endif
