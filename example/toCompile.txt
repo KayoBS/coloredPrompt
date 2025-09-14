@@ -1,0 +1,15 @@
+from this directory:
+
+  for windows:
+    g++ example/example.cpp lib/definitions/printc.cpp lib/definitions/toLower.cpp -o example.exe
+
+  for linux:
+    g++ example/example.cpp lib/definitions/printc.cpp lib/definitions/toLower.cpp -o example.out
+
+from "example/":
+
+  for windows:
+    g++ example.cpp ../lib/definitions/printc.cpp ../lib/definitions/toLower.cpp -o example.exe
+
+  for linux:
+    g++ example.cpp ../lib/definitions/printc.cpp ../lib/definitions/toLower.cpp -o example.out

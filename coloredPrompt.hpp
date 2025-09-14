@@ -1,8 +1,19 @@
-#ifndef COLORED_CMD_H_INCLUDED
-#define COLORED_CMD_H_INCLUDED
+#ifndef COLORED_PROMPT_HPP_INCLUDED
+#define COLORED_PROMPT_HPP_INCLUDED
 
-//este é o arquivo que deve ser usado como cabeçalho
-#include "printwe/printwe.hpp"
-#include "printc.hpp"
+#include <string>
+
+class coloredPrompt
+{
+  private:
+    void toLower( std::string* arg );
+
+  public:
+    void printc( std::string message, std::string wordcolor );
+    //void printc( std::string message, std::string wordColor, std::string backgroundColor );
+    //void printc( std::string message, std::string wordColor, std::string backgroundColor, bool highIntensity );
+    //void printc( std::string message, std::string wordColor, std::string backgroundColor, bool highIntensity, unsigned short style );
+
+};
 
 #endif
